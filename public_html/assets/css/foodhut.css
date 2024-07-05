@@ -47,6 +47,10 @@
 *::after {
   box-sizing: border-box;
 }
+.social-icons i {
+  font-size: 80px; /* Ajusta el tamaño de los iconos */
+  color: #adb5bd; /* Color gris suave */
+}
 
 html {
   font-family: sans-serif;
@@ -11200,7 +11204,7 @@ pre {
 .header {
   height: 100vh;
   max-height: 900px;
-  background: url(../imgs/main.jpg) no-repeat center center fixed;
+  background: url(../imgs/pizza.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 750px;
 }
@@ -11268,6 +11272,16 @@ pre {
   background: url(../imgs/about-section.jpg) no-repeat center center;
   background-size: cover;
 }
+
+.has-img-bg1 {
+  background: url(../imgs/promocion.jpg) no-repeat center center;
+  background-size: cover;
+}
+.has-img-bg2 {
+  background: url(../imgs/chef.jpg) no-repeat center center;
+  background-size: cover;
+}
+
 
 .has-bg-overlay {
   position: relative;
